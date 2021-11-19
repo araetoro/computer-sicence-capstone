@@ -1,0 +1,13 @@
+Project Overview: 
+
+This project was created to address the inventory management needs of a fictional company for my BS in Computer Science Capstone project. 
+
+K-Means Cluster Algorithm 
+For this project I created two models using inventory data. The first is a K-Means cluster algorithm to identify relationships between products based on sales quantity and sales dollars. Three clusters were identified, a high sales quantity high sales dollar cluster, a low sales quantity low sales dollars cluster, and a medium sales quantity medium sales dollar cluster. These clusters can be used to help with inventory ordering decisions, marketing strategies, and in combination with an apriori algorithm to try to move higher volumes of lower sales times by pairing them strategically with higher sales items. 
+
+ARIMA Model
+The second algorithm is a sales quantity forecast using an ARIMA model. This model can be paired with the cluster algorithms to make better ordering decisions to ensure the company has a high enough volume of products that they do not sell out and lose sales from lack of inventory while avoiding over ordering and accruing unnecessary warehouse storage fees. 
+
+Dashboard
+Here is a link to the accompanying dashboard visualizing the findings of the project: 
+https://datastudio.google.com/reporting/dc71bd17-a87c-4dc8-9956-9fc3a3df7c29
